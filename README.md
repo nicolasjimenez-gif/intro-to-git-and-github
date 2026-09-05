@@ -1,14 +1,18 @@
-# Simple Interest Calculator
+# Introduction to Git and GitHub
 
-Worked through as part of Introduction to Git and GitHub — branching, commits and pull
-requests, with a small calculator as the thing being changed.
+Course repository for branching, commits, pull requests and issue templates. Two small
+interest calculators are the thing being changed along the way.
+
+- `simple-interest.sh` — Bash. Prompts for principal, annual rate and term in years.
+- `compound_interest.py` — Python. The same idea with interest compounding.
 
 ```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
+simple interest = (principal x rate x time) / 100
+```
 
-Output:
-   simple interest = p * t * r
+## Run them
+
+```bash
+bash simple-interest.sh
+python compound_interest.py
 ```
